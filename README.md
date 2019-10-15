@@ -24,10 +24,10 @@ Plug the 3V in the 5V and the GND in the GND on the arduino.
 ## How to
 Follow this guide step by step to make the device work.  
 
-**1. Account setup**
+**1. Account setup**  
 Create an account at our website www.bitandbrush.com and copy your user id "sanderOost" for example.  
 
-**2. Set up the global variables**
+**2. Set up the global variables**  
 Open up the arduino code editor and select the file that is located in this repository.  
 The device uses an internet connection so you need to connect it to your router.  
 An ssid and password are found on the back of the router and fill them in the vars.  
@@ -43,7 +43,7 @@ String user = "?=sanderOost";
 
 ```
 
-**3. Check wifi connection**
+**3. Check wifi connection**  
 First we need to check if the wifi connection works otherwise the product will not function.  
 Delete the function call "getData()" in the loop.  
 ```
@@ -55,7 +55,7 @@ Now run the code and check the serial monitor.
 It should say "Wifi connected" and then we are ready to move to the nex step.  
 If it says that it keeps trying to connect you should check the ssid and password.  
 
-**4. Displaying data**
+**4. Displaying data**  
 Now that we have a stable connection, we can try getting data from the server.  
 All we have to do is add the getData() function in the loop again and then rerun the code.  
 ```
