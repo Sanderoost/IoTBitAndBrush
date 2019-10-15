@@ -3,7 +3,7 @@
 ## About
 This is a manual about how you can create the bit device of the project Bit and Brush.  
 The main goal of the product is to simulate the brushing habit of a specific user, by showing that the dentist can easily spot the bad brushed spots.  
-The data is collected from tooth brush which comes with the bit device and is stored on the website Bitandbrush.com  
+The data is collected from the tooth brush which comes with the bit device and is stored on the website www.bitandbrush.com  
 
 ## Requirements
 * A bit and brush account (www.bitandbrush.com)
@@ -74,8 +74,10 @@ Note: If the serial monitor is not displaying any data or the light are not work
 This should be resolved by using the brush a couple times.  
 
 ## Bonus
-The leds are a simulation of teeth and to put this product to full use you can attach the leds to a 3d printed model of a set of teeth.  
+The leds are a simulation of teeth and to put this product to full use you can attach the leds to a 3d printed model of a set of teeth.   
+You obviously need a 3d printer to print the model.  
 Download and print this model:  
 https://sketchfab.com/3d-models/human-teeth-c4c569f0e08948e2a572007a7a5726f2
 
 Use glue to attatch the led strip and wait for it to dry.  
+
