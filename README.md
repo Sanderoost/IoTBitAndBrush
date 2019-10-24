@@ -2,15 +2,12 @@
 
 ## About
 This is a manual about how you can create the bit device of the project Bit and Brush.  
-The main goal of the product is to simulate the brushing habit of a specific user, by showing that the dentist can easily spot the bad brushed spots.  
-The data is collected from the tooth brush which comes with the bit device and is stored on the website www.bitandbrush.com  
+After completing this manual we will be able to light up al de different leds in te led strip itself.
 
 ## Requirements
-* A bit and brush account (www.bitandbrush.com)
 * Arduino code editor (https://www.arduino.cc/en/Main/Software)
 * Arduino esp8266
 * 2 led strips
-* Bonus: * 3d Model of teeth
 
 ## Setup arduino
 Install the following libraries from the library manager:
