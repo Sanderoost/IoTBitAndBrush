@@ -67,7 +67,7 @@ If the leds are plugged in the right way they should also be showing colors now.
 
 The setup is finished and the device should now be working properly!  
 
-Note: If the serial monitor is not displaying any data or the light are not working properly then it could be there is not enought data collected yet from the server.  
+Note: If the serial monitor is not displaying any data or the light are not working properly then it could be there is not enough data collected yet from the server.  
 This should be resolved by using the brush a couple times.  
 
 ## Bonus
