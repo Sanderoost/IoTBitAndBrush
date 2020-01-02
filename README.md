@@ -1,13 +1,15 @@
 # Bit And brush (Bit Device)
 
 ## About
-This is a manual about how you can create the bit device of the project Bit and Brush.  
-After completing this manual we will be able to light up al de different leds in te led strip itself.
+In this manual the user will learn how to set up his own node server and controlling the led strips with the use of an array.
+The idea behind this is that we can simulate where the user didnt brush his or her teeth well enough from a web server.
 
 ## Requirements
 * Arduino code editor (https://www.arduino.cc/en/Main/Software)
 * Arduino esp8266
 * 2 led strips
+* Laptop/Pc
+* Ngrok server Port (https://ngrok.com/)
 
 ## Setup arduino
 Install the following libraries from the library manager:
@@ -19,10 +21,13 @@ Plug in the led strips for the upper teeth in pin D5 and the lower teeth in pin 
 Plug the 3V in the 5V and the GND in the GND on the arduino.  
 
 ## How to
-Follow this guide step by step to make the device work.  
+Follow this guide step by step to make the device and server work and connected to eachother.  
 
-**1. Account setup**  
-Create an account at our website www.bitandbrush.com and copy your user id "sanderOost" for example.  
+# Server setup
+The server runs on a nodeJs server and we will need to port that server to the web in order for the device to connect and use the given array.
+
+
+
 
 **2. Set up the global variables**  
 Open up the arduino code editor and select the file that is located in this repository.  
