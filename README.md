@@ -10,6 +10,7 @@ The idea behind this is that we can simulate where the user didnt brush his or h
 * 2 led strips
 * Laptop/Pc
 * Ngrok server Port (https://ngrok.com/)
+* Npm (https://www.npmjs.com/)
 
 ## Setup arduino
 Install the following libraries from the library manager:
@@ -20,14 +21,15 @@ Install the following libraries from the library manager:
 Plug in the led strips for the upper teeth in pin D5 and the lower teeth in pin D2.  
 Plug the 3V in the 5V and the GND in the GND on the arduino.  
 
-## How to
+## How to use
 Follow this guide step by step to make the device and server work and connected to eachother.  
 
 # Server setup
 The server runs on a nodeJs server and we will need to port that server to the web in order for the device to connect and use the given array.
 
-
-
+**1. Import Npm Package from git**
+First import this package from github and open terminal in the root folder.
+Then type "npm install" in the terminal and the packages should be installed.
 
 **2. Set up the global variables**  
 Open up the arduino code editor and select the file that is located in this repository.  
