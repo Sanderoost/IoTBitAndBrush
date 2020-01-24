@@ -97,11 +97,11 @@ If so, the arduino device has made a succesful call to the api and will begin di
 All the monitor should show is array numbers from 1-32 and after that a random number from 1-5.  
 If the leds are plugged in the right way they should also be showing colors now.  
 
-The setup is finished and the device should now be working properly!  
+The setup is finished and the device should now be working properly!   
 
 Note: If the serial monitor is not displaying any data or the light are not working properly then it could be there is a server issue with ngrok(They update the servers a lot)
 
-**Array changes**
+**Array changes**  
 At the moment the array represents which color the led light will show and the number is written in the arduino code.
 If you wish to change the value of a number, edit the rgb color code from the following code:
 ```
