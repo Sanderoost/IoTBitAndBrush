@@ -46,7 +46,7 @@ These are the 2 arrays we are going to pass through the ported server to the nod
 Now we want the server to be available for the nodemcu.
 We will be using Ngrok for that and after its installed navigate to the root folder where ngrok is installed.
 Type "./ngrok http localhost:2000" in the terminal and it should return the following:
-![ngrok]("https://raw.githubusercontent.com/Sanderoost/files/master/Schermafbeelding%202020-01-24%20om%2011.01.59.png?token=ACNFE5PIQKUQREBPWFY2J4C6FLCMO")
+![ngrok]("https://github.com/Sanderoost/files/blob/master/Schermafbeelding%202020-01-24%20om%2011.01.59.png?raw=true")
 Keep the window open because we need the url later on.
 
 **4. Testing ngrok port**
