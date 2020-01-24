@@ -73,7 +73,7 @@ void loop() {
 }
 ```
 Now run the code and check the serial monitor.  
-It should say "Wifi connected" and then we are ready to move to the nex step.  
+It should say "Wifi connected" and then we are ready to move to the next step.  
 If it says that it keeps trying to connect you should check the ssid and password.  
 
 
@@ -94,12 +94,12 @@ void loop() {
 ```
 Open up the serial monitor and check if it says "HTTP OK".  
 If so, the arduino device has made a succesful call to the api and will begin displaying data in the serial monitor.  
-All the monitor should show is number from 1-32 and after that a random number from 1-5.  
+All the monitor should show is array numbers from 1-32 and after that a random number from 1-5.  
 If the leds are plugged in the right way they should also be showing colors now.  
 
 The setup is finished and the device should now be working properly!  
 
-Note: If the serial monitor is not displaying any data or the light are not working properly then it could be there is a server issue from ngrok(They update the servers a lot)
+Note: If the serial monitor is not displaying any data or the light are not working properly then it could be there is a server issue with ngrok(They update the servers a lot)
 
 **Array changes**
 At the moment the array represents which color the led light will show and the number is written in the arduino code.
@@ -126,4 +126,4 @@ void setLed(int ledNumber, int state, String led) {
   }
 ```
 
-Keep in mind that the array always has to have 16 numbers otherwise the program will fail to run.
+Keep in mind that the array always has to have 32 numbers otherwise the program will fail to run.
