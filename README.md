@@ -127,3 +127,5 @@ void setLed(int ledNumber, int state, String led) {
 ```
 
 Keep in mind that the array always has to have 32 numbers otherwise the program will fail to run.
+
+
