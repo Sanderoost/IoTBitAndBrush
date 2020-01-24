@@ -5,8 +5,7 @@
 const char* ssid = "";         
 const char* password = "";    
 
-String server = "http://www.bitandbrush.com";
-String user = "?=";
+String server = "ngrokString";
 
 
 //Leds aansluiting benoemen
@@ -50,7 +49,7 @@ void loop() {
 }
 
 void getData() {
-  String url = server + user;
+  String url = server;
   Serial.println("Loading: " + url);
 
   HTTPClient http;
