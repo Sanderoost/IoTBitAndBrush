@@ -27,36 +27,36 @@ Follow this guide step by step to make the device and server work and connected 
 # Server setup
 The server runs on a nodeJs server and we will need to port that server to the web in order for the device to connect and use the given array.
 
-**1. Import Npm Package from git**
+**1. Import Npm Package from git**  
 First import this package from github and open terminal in the root folder.
 Then type "npm install" in the terminal and the packages should be installed.
 
-**2. Run Npm package**
+**2. Run Npm package**  
 Now type "Nodemon index.js" in the same terminal and open up a web browser of your choice.
-![Nodemon]("https://raw.githubusercontent.com/Sanderoost/files/master/Schermafbeelding%202020-01-24%20om%2010.49.15.png?token=ACNFE5OILC5SKBUHASEIN4C6FLCKA")
+![Nodemon](https://github.com/Sanderoost/files/blob/master/Schermafbeelding%202020-01-24%20om%2010.49.15.png)
 
 
-In the url bar naigate to "Localhost:2000"
+In the url bar naigate to "Localhost:2000"  
 If everything is in order the page should show:
-![WebPage]("https://raw.githubusercontent.com/Sanderoost/files/master/Schermafbeelding%202020-01-24%20om%2010.53.32.png?token=ACNFE5PJWJFDSVEDO6W6E626FLCGQ")
+![WebPage](https://github.com/Sanderoost/files/blob/master/Schermafbeelding%202020-01-24%20om%2010.53.32.png?raw=true)
 These are the 2 arrays we are going to pass through the ported server to the nodeMCU.
 
 
-**3. Porting the server**
+**3. Porting the server**  
 Now we want the server to be available for the nodemcu.
 We will be using Ngrok for that and after its installed navigate to the root folder where ngrok is installed.
 Type "./ngrok http localhost:2000" in the terminal and it should return the following:
-![ngrok]("https://github.com/Sanderoost/files/blob/master/Schermafbeelding%202020-01-24%20om%2011.01.59.png?raw=true")
+![ngrok](https://github.com/Sanderoost/files/blob/master/Schermafbeelding%202020-01-24%20om%2011.01.59.png?raw=true)
 Keep the window open because we need the url later on.
 
-**4. Testing ngrok port**
+**4. Testing ngrok port**  
 We need to check if the server is online so navigate to the ported server and see if it responds.
 In my example the server is: http://576a23d2.ngrok.io 
 
-# Arduino setup
+# Arduino setup  
 The arduino needs to be connected to the internet and be able to retrieve the array from the ported server
 
-**1. Set up the connection variables**  
+**1. Set up the connection variables**    
 Open up the arduino code editor and select the file that is located in this repository.  
 The device uses an internet connection so you need to connect it to your router.  
 An ssid and password are found on the back of the router and fill them in the vars.  
